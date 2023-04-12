@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.CocktailQuiz" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color.of mobile status bar -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <!-- all view color for status bar etc.. -->
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <!-- all background view color -->
+        <item name="colorOnPrimary">@color/color_on_primary_variant</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_primary</item>
+        <item name="colorSecondaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnSecondary">@color/color_on_primary_variant</item>
+
+        <!-- Status bar and Nav bar configs -->
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- System Status bar color. -->
+        <item name="android:statusBarColor">@color/color_primary_variant</item>
+        <item name="android:colorBackground">@color/black</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- System Navigation bar color. -->
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+</resources>

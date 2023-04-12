@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Splash Screen Theme. -->
+    <!--    <style name="Theme.AppSplash" parent="Theme.SplashScreen.Common">-->
+    <style name="Theme.AppSplash" parent="Theme.AppCompat">
+        <item name="windowSplashScreenBackground">@mipmap/ic_launcher</item>
+        <item name="splashScreenIconSize">65dp</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="postSplashScreenTheme">@style/Theme.CocktailQuiz</item>
+
+        <!-- Status bar and Nav bar configs -->
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- System Status bar color. -->
+        <item name="android:statusBarColor">@color/color_primary_variant</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:background">@mipmap/ic_launcher</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- System Navigation bar color. -->
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+</resources>
