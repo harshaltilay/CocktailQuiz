@@ -35,13 +35,10 @@ The code is divided in to five layers of CLEAN Architecture Pattern.
     <img src="screenshot.png" alt="Logo" width="340" height="660">
 </a>
 
-[//]: # (## Apk download)
-
-[//]: # (<a href="https://github.com/harshaltilay/ExpenseJournal/raw/master/ExpenseJournal.apk">)
-
-[//]: # (Download the apk to see it in action)
-
-[//]: # (</a>)
+## Apk download
+<a href="https://github.com/harshaltilay/CocktailQuiz/raw/master/CocktailsQuiz.apk">
+Download the apk to see it in action
+</a>
 
 <!-- CONTACT -->
 ## Developer Info
