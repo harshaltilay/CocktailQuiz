@@ -20,7 +20,6 @@ package com.harshal.tilay.cocktailquiz.presentations.main
 
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -83,11 +82,16 @@ class MainFragment : BaseFragment() {
         binding.radioOptions.setOnCheckedChangeListener { _, checkedId ->
             if (answer != null) return@setOnCheckedChangeListener
 
-            answer = if (checkedId == R.id.rb_option_a) binding.rbOptionA.text.toString()
-            else binding.rbOptionB.text.toString()
+            val answerA = binding.rbOptionA.text.toString()
+            val answerB = binding.rbOptionB.text.toString()
+
+            answer = if (checkedId == R.id.rb_option_a) answerA
+            else answerB
 
             val isRight = _mainFragmentViewModel.answerQuestion(answer!!)
-            if (!isRight) answer = binding.rbOptionB.text.toString()
+            if (!isRight) answer = if (answer == answerA) answerB
+            else answerA
+
 
             binding.tvAnswer.text = answer
             binding.radioOptions.clearCheck()
