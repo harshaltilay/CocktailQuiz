@@ -36,7 +36,7 @@ The code is divided in to five layers of CLEAN Architecture Pattern.
 </a>
 
 ## Apk download
-<a href="https://github.com/harshaltilay/CocktailQuiz/raw/master/CocktailsQuiz.apk">
+<a href="https://github.com/harshaltilay/CocktailQuiz/blob/master/CocktailQuiz.apk">
 Download the apk to see it in action
 </a>
 
