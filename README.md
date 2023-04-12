@@ -29,13 +29,13 @@ The code is divided in to five layers of CLEAN Architecture Pattern.
 
 
 
-[//]: # (## Screenshot)
+## Screenshot
 
-[//]: # (<a href="https://github.com/harshaltilay/ExpenseJournal">)
+<a href="https://github.com/harshaltilay/CocktailQuiz">
 
-[//]: # (    <img src="screenshot1.png" alt="Logo" width="320" height="660">)
+    <img src="screenshot.png" alt="Logo" width="320" height="660">
 
-[//]: # (</a>)
+</a>
 
 [//]: # (## Apk download)
 
