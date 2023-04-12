@@ -32,7 +32,7 @@ The code is divided in to five layers of CLEAN Architecture Pattern.
 ## Screenshot
 
 <a href="https://github.com/harshaltilay/CocktailQuiz">
-    <img src="screenshot.png" alt="Logo" width="320" height="660">
+    <img src="screenshot.png" alt="Logo" width="360" height="660">
 </a>
 
 [//]: # (## Apk download)
