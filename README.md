@@ -47,7 +47,6 @@ Country: India (GMT+5.30)</br>
 
 ## Disclaimer
 This is my hobby project mostly completed in spare time and has been developed on Emulator only. If you face any issue please let me know further.
-This is an offline app so if you uninstall it then you will loose all your existing data.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### License
